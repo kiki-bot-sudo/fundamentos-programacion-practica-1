@@ -1,103 +1,159 @@
-# Práctica de Fundamentos de Programación
-## Desarrollo de Software y Negocios Digitales
+# ���‍��� Fundamentos de Programación - Práctica 1
 
- ![Tests](https://github.com/JorgeTSW/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
+## ��� Información del Estudiante
+- **Nombre:** Enrique Zavala
+- **Carrera:** TSU en Desarrollo e Innovación de Software
+- **Cuatrimestre:** Primer Cuatrimestre
+- **Profesor:** Jorge Javier Pedrozo Romero
 
-¡Bienvenido a la práctica de programación! En este repositorio aprenderás a programar en JavaScript mientras aplicas conceptos de álgebra.
+## ��� Descripción del Proyecto
 
-## Objetivos
+Este repositorio contiene mi solución a la práctica de **Fundamentos de Programación**, donde implemento funciones en JavaScript para resolver problemas de álgebra básica, preparándome para trabajar con operaciones matriciales más complejas.
 
-- Aprender a usar Git y GitHub
-- Dominar los fundamentos de JavaScript
-- Prepararte para programar operaciones matriciales
-- Desarrollar habilidades de resolución de problemas
+## ��� Objetivos Alcanzados
 
-## Requisitos previos
+✅ Dominar variables y tipos de datos en JavaScript  
+✅ Implementar estructuras condicionales  
+✅ Utilizar bucles y funciones  
+✅ Manipular arrays unidimensionales  
+✅ Trabajar con arrays bidimensionales 
+✅ Aplicar control de versiones con Git y GitHub  
 
-- Tener una cuenta en [GitHub](https://github.com)
-- Instalar [Node.js](https://nodejs.org) (versión 14 o superior)
-- Instalar [Git](https://git-scm.com)
-- Un editor de código como [VS Code](https://code.visualstudio.com)
+## ��� Progreso de Ejercicios
 
-## ¿Cómo empezar?
+### Sección 1: Variables y Tipos de Datos 
+-  1.1 Mi Información  ✅
+-  1.2 Operaciones Básicas  ✅
+-  1.3 Área de Rectángulo  ✅
+-  1.4 Conversión Celsius a Fahrenheit ✅
 
-### Paso 1: Fork del repositorio
-1. Haz clic en el botón **Fork** en la esquina superior derecha
-2. Esto creará una copia del repositorio en tu cuenta
+**Puntos obtenidos: 10/10**
 
-### Paso 2: Clonar tu fork
-```bash
-git clone https://github.com/TU-USUARIO/fundamentos-programacion.git
-cd fundamentos-programacion
+### Sección 2: Condicionales 
+- 2.1 Par o Impar ✅
+- 2.2 Evaluar Nota  ✅
+- 2.3 Mayor de Tres ✅
+- 2.4 Clasificar Edad  ✅
+
+**Puntos obtenidos: 15/15**
+
+### Sección 3: Funciones y Bucles 
+- 3.1 Factorial  ✅
+- 3.2 Suma Hasta N ✅
+- 3.3 Tabla de Multiplicar  ✅
+- 3.4 Números Pares ✅
+
+**Puntos obtenidos: 20/20**
+
+### Sección 4: Arrays (25 pts)
+- 4.1 Suma de Arrays ✅
+- 4.2 Promedio de Array  ✅
+- 4.3 Encontrar Máximo  ✅
+- 4.4 Filtrar Mayores ✅
+- 4.5 Invertir Array  ✅
+
+**Puntos obtenidos: 25/25**
+
+### Sección 5: Arrays Bidimensionales - Matrices 
+- 5.1 Crear Matriz  ✅
+- 5.2 Suma de Matriz  ✅
+- 5.3 Obtener Fila  ✅
+- 5.4 Obtener Columna ✅
+- 5.5 Transponer Matriz ✅
+
+**Puntos obtenidos: 30/30**
+
+## ��� Calificación Final
+
+```
+┌────────────────────────────────────────┐
+│  REPORTE DE CALIFICACIÓN               │
+├────────────────────────────────────────┤
+│  Puntos obtenidos: 100/100             │
+│  Porcentaje: 100%                      │
+│  ��� Calificación: A - Excelente        │
+└────────────────────────────────────────┘
 ```
 
-### Paso 3: Instalar dependencias
+## ��� Instalación y USo
+
+### Prerrequisitos
+- Node.js (versión 14 o superior)
+- Git
+
+### Clonar el repositorio
+```bash
+git clone https://github.com/TU-USUARIO/fundamentos-programacion-practica-1.git
+cd fundamentos-programacion-practica-1
+```
+
+### Instalar dependencias
 ```bash
 npm install
 ```
 
-### Paso 4: Completar los ejercicios
-Abre el archivo `ejercicios.js` y completa cada función siguiendo las instrucciones.
-
-### Paso 5: Probar tu código localmente
+### Ejecutar tests
 ```bash
 npm test
 ```
-
-### Paso 6: Subir tus cambios
-```bash
-git add ejercicios.js
-git commit -m "Ejercicio #XX completado"
-git push origin main
-```
-
-### Paso 7: Ver tu calificación
-- Ve a la pestaña **Actions** en tu repositorio de GitHub
-- Verás el resultado de los tests automáticos
-- ¡Tu calificación aparecerá allí­!
-
-## Estructura del repositorio
+## ��� Estructura del Proyecto
 
 ```
-fundamentos-programacion/
-├── .github/
-│   └── workflows/
-│       └── test.yml           # Configuración de GitHub Actions
-├── ejercicios.js              # Aquí­ escribirás tu código
-├── ejercicios.test.js         # Tests (NO modificar)
-├── package.json               # Configuración del proyecto
-└── README.md                  # Este archivo
+fundamentos-programacion-practica-1/
+│
+├── ejercicios.js           # ⭐ Archivo principal con mis soluciones
+├── ejercicios.test.js      # Tests automatizados (no modificar)
+├── package.json            # Configuración del proyecto
+├── README.md               # Este archivo
+├── GUIA_ESTUDIANTES.md     # Guía de referencia
+├── GUIA_INSTRUCTOR.md      # Guía del profesor
+│
+└── .github/
+    └── workflows/
+        └── test.yml        # Configuración de GitHub Actions
 ```
 
-## Reglas importantes
+## ��� Aprendizajes Clave
 
-1. **SOLO** debes modificar el archivo `ejercicios.js`
-2. **NO** modifiques los archivos de test
-3. **NO** modifiques la configuración de GitHub Actions
-4. Todos los ejercicios deben pasar los tests para obtener la máxima calificación
+### Lo que más me costó
+Entender como usar javascript para resolver problemas de algrebra y como entender cómo funcionan las matrices.
+Tambien como usar git y github para controlar mis cambios para poder ver los cambios que realicé en el proyecto.
 
-## Consejos
+### Lo que más me gustó
+Ver como usar javascript para resolver problemas de algrebra y como entender cómo funcionan las matrices.
+y ver como escribiendo unos comando se verifica easy.
 
-- Lee cuidadamente las instrucciones de cada ejercicio
-- Prueba tu código localmente antes de hacer push
-- Si un test falla, lee el mensaje de error - te dice qué está mal
-- Puedes hacer múltiples commits, no hay penalización
-- Busca ayuda en la documentación de [JavaScript MDN](https://developer.mozilla.org/es/docs/Web/JavaScript)
+### Técnicas Aplicadas
+- operdadores
+- matrices
+- js 
+- git
+- condicionales
+- bucles
+- algoritmos
 
-## Sistema de calificación
+## ��� Próximos Pasos
 
-- Cada ejercicio vale puntos especí­ficos
-- La calificación final es automática
-- Aparecerá en los resultados de GitHub Actions
-- Badge de estado: ![Tests](https://github.com/JorgeTSW/fundamentos-programacion-practica-1/actions/workflows/test.yml/badge.svg)
+Este proyecto me prepara para:
+- ✨ Operaciones matriciales avanzadas (multiplicación, determinantes)
+- ���️ Desarrollo de editores de imágenes
+- ��� Implementación de algoritmos de encriptación
+- ��� Creación de calculadoras científicas
+## ��� Agradecimientos
 
-## Próximos pasos
+- Profesor Jorge Javier Pedrozo Romero por la estructura del curso y la práctica
+- Tecnológico de Software por la formación integral
 
-Una vez domines estos fundamentos, trabajaremos en:
-- Operaciones con matrices
-- Calculadora matricial
-- Aplicaciones prácticas (editores de imágenes, encriptación)
+## ��� Licencia
+
+Este proyecto es parte de las actividades académicas del Tecnológico de Software y está bajo la licencia MIT.
 
 ---
 
-**¡Éxito en tu práctica!**
+<div align="center">
+
+**⭐ Si te gustó este proyecto, dale una estrella ⭐**
+
+Hecho con ��� por Enrique - 2025
+
+</div>
