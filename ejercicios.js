@@ -96,7 +96,7 @@ function numerosPares(n) {
   }
   return pares;
 }
-
+// seccion 3 completada jejejeje
 // ============================================
 // SECCIÓN 4: ARRAYS (25 puntos)
 // ============================================
