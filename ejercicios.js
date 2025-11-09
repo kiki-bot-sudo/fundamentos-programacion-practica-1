@@ -30,7 +30,7 @@ function areaRectangulo(base, altura) {
 function celsiusAFahrenheit(celsius) {
   return celsius * 9/5 + 32;
 }
-
+//seccion 1 completada jejee
 // ============================================
 // SECCIÓN 2: CONDICIONALES (15 puntos)
 // ============================================
