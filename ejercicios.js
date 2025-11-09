@@ -197,7 +197,7 @@ function transponer(matriz) {
   }
   return transpuesta;
 }
-
+// seccion 5 completada jejejeje
 // ============================================
 // NO MODIFIQUES ESTA LÍNEA - NECESARIA PARA LOS TESTS
 // ============================================
