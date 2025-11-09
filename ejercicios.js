@@ -60,7 +60,7 @@ function clasificarEdad(edad) {
     return "mayor";
   }
 }
-
+//seccion 2 completada jejejeje
 // ============================================
 // SECCIÓN 3: FUNCIONES Y BUCLES (20 puntos)
 // ============================================
