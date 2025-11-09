@@ -145,7 +145,7 @@ function invertirArray(arr) {
   }
   return invertido;
 }
-
+// seccion 4 completada jejejeje
 // ============================================
 // SECCIÓN 5: ARRAYS BIDIMENSIONALES (30 puntos)
 // ============================================
